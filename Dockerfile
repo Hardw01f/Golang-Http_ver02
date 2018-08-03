@@ -1,7 +1,7 @@
 FROM golang:1.9 as builder 
 
 RUN apt-get update
-RUN go get github.com/Laughingkitten/Golang-Http_ver01
+RUN go get github.com/Laughingkitten/Golang-Http_ver02
 
 WORKDIR /go/src/github.com/Laughingkitten/Golang-Http_ver01
 

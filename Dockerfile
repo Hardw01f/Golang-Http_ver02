@@ -17,6 +17,6 @@ FROM alpine:latest
 
 WORKDIR /app
 
-COPY --from=builder /go/src/github.com/Laughingkitten/Golang-Http_ver01/httpserver .
+COPY --from=builder /go/src/github.com/Laughingkitten/Golang-Http_ver02/httpserver .
 
 ENTRYPOINT ["./httpserver"]

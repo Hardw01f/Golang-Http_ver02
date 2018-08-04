@@ -5,7 +5,7 @@ The Second Repository
 ## HOW TO BUILD
 
 ```
-$ git clone https://github.com/Laughingkitten/Golang-Http_ver02.git
+$ git clone --recursive https://github.com/Laughingkitten/Golang-Http_ver02.git
 $ docker build -t http_fizzbuzz .
 $ docker run -d -p 8080:8080 http_fizzbuzz
 ```

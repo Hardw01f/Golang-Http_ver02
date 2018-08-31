@@ -1,5 +1,7 @@
 This repository is used for Golang-Http-Fizzbuz
 
+**This repository contains vulnerabilities. This repository is for penetration testing. Please, handle with care.**
+
 The Second Repository
 
 ## HOW TO BUILD
